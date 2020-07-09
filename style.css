@@ -4,7 +4,6 @@
     padding-bottom: 50px;
 }
 
-
 .header{
     background-color: #F0FFF0;
 }
@@ -24,17 +23,33 @@ h1 {
     background-color: #F8FFFB;
 } 
 
-.footer {
-    bg
-}
+
 .copyright {
     padding-top: 60px;
     text-align: center;
 }
 .suscribe-social {
     margin-top: 80px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
-.social ul  {
-    display: inline;
+.social ul li {
+  text-decoration: none;
 }
+
+.social ul li {
+    display: inline-block;
+  }
+  
+.social {
+    padding-top: 20%;
+    
+}
+.social ul li a {
+    padding-left: 10px;
+  }
+
+.pakage {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/**   --------  end css     ------- **/
